@@ -111,7 +111,7 @@ This is where I do my best work — building systems where AI agents do the heav
 <img src="https://streak-stats.demolab.com/?user=konethegreat&theme=shadow_blue&hide_border=false" alt="Contribution streak" />
 
 <!-- Commit activity graph — updates automatically with every push -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=konethegreat&theme=react-dark&hide_border=false&area=true&custom_title=Commit%20%26%20Push%20Activity" width="100%" alt="Activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=konethegreat&theme=react-dark&hide_border=false&area=true&custom_title=Commit%20and%20Push%20Activity" width="100%" alt="Activity graph" />
 
 <!-- Contribution snake — regenerated daily by GitHub Actions -->
 <picture>
