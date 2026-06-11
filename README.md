@@ -1,5 +1,5 @@
 <!-- Animated welcome banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Kone%20Tshivhinda&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=Software%20Engineer%20%7C%20AI%20Automation%20Builder&descAlignY=58&descSize=20" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Kone%20Tshivhinda&fontSize=48&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Software%20Engineer%20%7C%20AI%20Automation%20Builder&descAlignY=56&descSize=18" width="100%" />
 
 <div align="center">
 
@@ -108,7 +108,7 @@ This is where I do my best work — building systems where AI agents do the heav
 <img src="https://github-readme-stats.vercel.app/api?username=konethegreat&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" height="170" alt="GitHub stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=konethegreat&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="170" alt="Top languages" />
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=konethegreat&theme=shadow_blue&hide_border=false" alt="Contribution streak" />
+<img src="https://streak-stats.demolab.com/?user=konethegreat&theme=shadow_blue&hide_border=false" alt="Contribution streak" />
 
 <!-- Commit activity graph — updates automatically with every push -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=konethegreat&theme=react-dark&hide_border=false&area=true&custom_title=Commit%20%26%20Push%20Activity" width="100%" alt="Activity graph" />
