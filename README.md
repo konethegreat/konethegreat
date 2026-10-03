@@ -17,15 +17,18 @@ its current scope and setup.
 | --- | --- | --- |
 | [MuniSolve ZA](https://github.com/konethegreat/munisolve-za) | Municipal fault reporting, authorization, and report lifecycle workflows | React and Express application; API tests and frontend build checks |
 | [TimeLex v2](https://github.com/konethegreat/timelex-automated-time-tracking-v2) | Legal time drafts, review, tenant boundaries, and ledger synchronization | Next.js 16, React 19, Prisma, PostgreSQL; external ledger gateway is simulated |
+| [SA Job Agent Suite (SA-JAS)](https://github.com/konethegreat/scratch) | Job discovery, tailored application documents, and guided applications | Desktop assistant; human submission, synthetic browser tests, and a clean public source snapshot |
 | [Server Health Monitor](https://github.com/konethegreat/server-health-monitor) | Configurable CPU, memory, and disk checks with Slack/SMTP alerts | Python tool; one check per invocation, with tests on Windows and Linux |
 | [Diary](https://github.com/konethegreat/Diary) | A single-user diary with a local database, AI provider choice, and documented data flows | Python/FastAPI; synthetic workflow tests; PolyForm Noncommercial license |
 
 The original [TimeLex prototype](https://github.com/konethegreat/timelex-automated-time-tracking)
 shows an earlier iteration. New work focuses on v2.
 
-**SA Job Agent Suite (SA-JAS)** is my desktop project for job discovery, tailored
-application documents, and guided applications. Its repository is undergoing a
-publication review; a public source link will be added once that work is complete.
+You can also explore [MB IQ](https://github.com/konethegreat/MB-IQ), an engineering
+workspace demo, and the [legal performance-management demo](https://github.com/konethegreat/mostoeneng-pms).
+Both public snapshots use demo data and document their setup and verification
+limits. My [company website source](https://github.com/konethegreat/k-one-it-solutions-website)
+shows the static K-ONE IT SOLUTIONS site.
 
 I also work on **Vigil**. Public case studies of work maintained separately will
 be added here as the material becomes ready to share.
