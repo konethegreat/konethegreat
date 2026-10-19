@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Kone Tshivhinda & Claude -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+<title id="t">Kone Tshivhinda, software engineer</title>
+<desc id="d">Animated banner: drifting aurora, orbiting nodes and the name Kone Tshivhinda.</desc>
+<defs>
+<linearGradient id="nm" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#c4f6ff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<radialGradient id="a1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".42"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<radialGradient id="a2"><stop offset="0" stop-color="#8b7bff" stop-opacity=".40"/><stop offset="1" stop-color="#8b7bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="a3"><stop offset="0" stop-color="#fbbf24" stop-opacity=".22"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>
+<radialGradient id="fade" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+<mask id="gm"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient>
+<clipPath id="r"><rect width="1200" height="320" rx="0"/></clipPath></defs>
+<style>
+.b{animation:drift 16s ease-in-out infinite alternate}
+.b2{animation-duration:21s;animation-direction:alternate-reverse}
+.b3{animation-duration:26s}
+@keyframes drift{from{transform:translate(0,0) scale(1)}to{transform:translate(70px,26px) scale(1.18)}}
+.rise{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.spin{transform-box:view-box;transform-origin:965px 160px;animation:spin 46s linear infinite}
+.spin.rev{animation-duration:70s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pulse{fill:#22d3ee;animation:pulse 3.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+.ring{transform-box:view-box;transform-origin:965px 160px;animation:ping 3.6s ease-out infinite}
+@keyframes ping{from{transform:scale(.5);opacity:.7}to{transform:scale(3.4);opacity:0}}
+.bar{animation:bar 5s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes bar{0%{transform:translateX(0)}60%,100%{transform:translateX(420px)}}
+.net line{stroke:#22d3ee;stroke-opacity:.18;stroke-width:1}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+
+<g clip-path="url(#r)">
+<rect width="1200" height="320" fill="#05060d"/>
+<ellipse class="b" cx="260" cy="90" rx="380" ry="200" fill="url(#a1)"/>
+<ellipse class="b b2" cx="980" cy="230" rx="360" ry="190" fill="url(#a2)"/>
+<ellipse class="b b3" cx="640" cy="320" rx="320" ry="120" fill="url(#a3)"/>
+<rect width="1200" height="320" fill="url(#grid)" mask="url(#gm)"/>
+<g class="net"><line x1="915" y1="226" x2="886" y2="295"/><line x1="915" y1="226" x2="1031" y2="215"/><line x1="907" y1="107" x2="870" y2="86"/><line x1="907" y1="107" x2="831" y2="114"/><line x1="822" y1="138" x2="831" y2="114"/><line x1="822" y1="138" x2="870" y2="86"/><line x1="1124" y1="200" x2="1119" y2="184"/><line x1="1124" y1="200" x2="1058" y2="189"/><line x1="1119" y1="184" x2="1124" y2="200"/><line x1="1119" y1="184" x2="1058" y2="189"/><line x1="1058" y1="189" x2="1053" y2="217"/><line x1="1058" y1="189" x2="1031" y2="215"/><line x1="768" y1="226" x2="822" y2="138"/><line x1="768" y1="226" x2="831" y2="114"/><line x1="1053" y1="217" x2="1031" y2="215"/><line x1="1053" y1="217" x2="1058" y2="189"/><line x1="797" y1="46" x2="831" y2="114"/><line x1="797" y1="46" x2="870" y2="86"/><line x1="831" y1="114" x2="822" y2="138"/><line x1="831" y1="114" x2="870" y2="86"/><line x1="1059" y1="151" x2="1058" y2="189"/><line x1="1059" y1="151" x2="1050" y2="91"/><line x1="1050" y1="91" x2="1059" y2="151"/><line x1="1050" y1="91" x2="1058" y2="189"/><line x1="1031" y1="215" x2="1053" y2="217"/><line x1="1031" y1="215" x2="1058" y2="189"/><line x1="886" y1="295" x2="915" y2="226"/><line x1="886" y1="295" x2="768" y2="226"/><line x1="1042" y1="268" x2="1053" y2="217"/><line x1="1042" y1="268" x2="1031" y2="215"/><line x1="870" y1="86" x2="907" y2="107"/><line x1="870" y1="86" x2="831" y2="114"/></g><circle class="pulse" cx="915" cy="226" r="3" style="animation-delay:2.14s"/><circle class="pulse" cx="907" cy="107" r="3" style="animation-delay:0.18s"/><circle class="pulse" cx="822" cy="138" r="2" style="animation-delay:1.49s"/><circle class="pulse" cx="1124" cy="200" r="3" style="animation-delay:1.28s"/><circle class="pulse" cx="1119" cy="184" r="2.5" style="animation-delay:1.40s"/><circle class="pulse" cx="1058" cy="189" r="2.5" style="animation-delay:1.08s"/><circle class="pulse" cx="768" cy="226" r="2" style="animation-delay:2.38s"/><circle class="pulse" cx="1053" cy="217" r="3" style="animation-delay:2.34s"/><circle class="pulse" cx="797" cy="46" r="2" style="animation-delay:1.72s"/><circle class="pulse" cx="831" cy="114" r="3" style="animation-delay:1.49s"/><circle class="pulse" cx="1059" cy="151" r="2.5" style="animation-delay:2.19s"/><circle class="pulse" cx="1050" cy="91" r="2.5" style="animation-delay:1.83s"/><circle class="pulse" cx="1031" cy="215" r="2" style="animation-delay:0.35s"/><circle class="pulse" cx="886" cy="295" r="2.5" style="animation-delay:0.49s"/><circle class="pulse" cx="1042" cy="268" r="2.5" style="animation-delay:0.46s"/><circle class="pulse" cx="870" cy="86" r="2.5" style="animation-delay:1.27s"/>
+<circle cx="965" cy="160" r="62" fill="none" stroke="#22d3ee" stroke-opacity=".25"/>
+<g class="spin"><circle cx="965" cy="160" r="100" fill="none" stroke="#22d3ee" stroke-opacity=".35" stroke-dasharray="3 9"/>
+<circle cx="1065" cy="160" r="5" fill="#22d3ee"/><circle cx="895" cy="231" r="3.5" fill="#fbbf24"/></g>
+<g class="spin rev"><circle cx="965" cy="160" r="142" fill="none" stroke="#8b7bff" stroke-opacity=".4" stroke-dasharray="2 12"/>
+<circle cx="965" cy="18" r="4.5" fill="#8b7bff"/><circle cx="865" cy="260" r="3" fill="#fff"/></g>
+<circle class="ring" cx="965" cy="160" r="16" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+<circle cx="965" cy="160" r="14" fill="#22d3ee"/><circle cx="965" cy="160" r="6" fill="#05060d"/>
+<text class="rise" x="72" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="600" letter-spacing="3.2" fill="#22d3ee" style="animation-delay:.1s">SOFTWARE ENGINEER  ·  SOUTH AFRICA</text>
+<text class="rise" x="68" y="196" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-2" fill="url(#nm)" style="animation-delay:.28s">Kone Tshivhinda</text>
+<text class="rise" x="72" y="240" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#8892ab" style="animation-delay:.5s">Civic tech · Legal tech · Practical AI automation</text>
+<rect x="72" y="278" width="480" height="2" rx="1" fill="#e8ecf6" fill-opacity=".08"/>
+<rect class="bar" x="72" y="277" width="60" height="4" rx="2" fill="url(#sweep)"/>
+</g>
+</svg>
