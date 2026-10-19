@@ -2,28 +2,28 @@
 <!-- Written by Kone Tshivhinda & Claude -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-labelledby="t d">
 <title id="t">Focus areas</title>
-<desc id="d">Three cards: civic tech (municipal reporting), legal tech (legal time capture), AI automation (desktop assistants and operational tools).</desc>
+<desc id="d">Three cards: AI agents and MCP tools; human-in-the-loop AI assistants; automation, operations and civic tech.</desc>
 <defs></defs>
 <style>.pd{animation:pd 2.4s ease-in-out infinite}@keyframes pd{0%,100%{opacity:.3}50%{opacity:1}}
 .up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
 <g transform="translate(0.0,0)"><g class="up" style="animation-delay:0.00s">
 <rect x=".5" y=".5" width="388.3" height="131" rx="16" fill="#0a0d1a" stroke="#1b2238"/>
-<rect x="0" y="22" width="3" height="88" rx="1.5" fill="#34d399"/>
-<circle class="pd" cx="34" cy="38" r="4.5" fill="#34d399" style="animation-delay:0.0s"/>
-<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#34d399">CIVIC TECH</text>
-<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Municipal reporting</text>
-<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Fault reporting and report lifecycles</text></g></g><g transform="translate(405.3,0)"><g class="up" style="animation-delay:0.15s">
-<rect x=".5" y=".5" width="388.3" height="131" rx="16" fill="#0a0d1a" stroke="#1b2238"/>
 <rect x="0" y="22" width="3" height="88" rx="1.5" fill="#22d3ee"/>
-<circle class="pd" cx="34" cy="38" r="4.5" fill="#22d3ee" style="animation-delay:0.5s"/>
-<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#22d3ee">LEGAL TECH</text>
-<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Legal time capture</text>
-<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Drafts, review and ledger synchronization</text></g></g><g transform="translate(810.7,0)"><g class="up" style="animation-delay:0.30s">
+<circle class="pd" cx="34" cy="38" r="4.5" fill="#22d3ee" style="animation-delay:0.0s"/>
+<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#22d3ee">AI AGENTS</text>
+<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Agents &amp; MCP tools</text>
+<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Agent-native services with narrow, tested tools</text></g></g><g transform="translate(405.3,0)"><g class="up" style="animation-delay:0.15s">
+<rect x=".5" y=".5" width="388.3" height="131" rx="16" fill="#0a0d1a" stroke="#1b2238"/>
+<rect x="0" y="22" width="3" height="88" rx="1.5" fill="#34d399"/>
+<circle class="pd" cx="34" cy="38" r="4.5" fill="#34d399" style="animation-delay:0.5s"/>
+<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#34d399">AI ASSISTANTS</text>
+<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Human-in-the-loop apps</text>
+<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Desktop and private assistants; people decide</text></g></g><g transform="translate(810.7,0)"><g class="up" style="animation-delay:0.30s">
 <rect x=".5" y=".5" width="388.3" height="131" rx="16" fill="#0a0d1a" stroke="#1b2238"/>
 <rect x="0" y="22" width="3" height="88" rx="1.5" fill="#fbbf24"/>
 <circle class="pd" cx="34" cy="38" r="4.5" fill="#fbbf24" style="animation-delay:1.0s"/>
-<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#fbbf24">AI AUTOMATION</text>
-<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Assistants &amp; ops tools</text>
-<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Desktop AI assistants and health monitoring</text></g></g>
+<text x="48" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#fbbf24">AUTOMATION</text>
+<text x="30" y="80" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e8ecf6">Ops &amp; civic tech</text>
+<text x="30" y="106" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14.5" fill="#8892ab">Monitoring, alerts and public-service workflows</text></g></g>
 </svg>

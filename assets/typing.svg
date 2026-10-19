@@ -2,7 +2,7 @@
 <!-- Written by Kone Tshivhinda & Claude -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 68" width="800" height="68" role="img" aria-labelledby="t d">
 <title id="t">Rotating tagline</title>
-<desc id="d">Terminal-style animation typing: Software engineer in South Africa; Founder of K-ONE IT SOLUTIONS; Civic tech, legal tech, AI automation; Small PRs, real tests, honest docs; Open to opportunities and collaborators.</desc>
+<desc id="d">Terminal-style animation typing: Software engineer in South Africa; Founder of K-ONE IT SOLUTIONS; I build AI agents and MCP tools; Human-in-the-loop by design; Open to opportunities and collaborators.</desc>
 <defs></defs>
 <style>
 .ln{opacity:0;animation:show 15s linear infinite backwards}
@@ -12,7 +12,7 @@
 @keyframes bl{50%{opacity:0}}
 .dot{animation:pulse 2.4s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
-@media (prefers-reduced-motion: reduce){.ln{opacity:0}.ln0{opacity:1}.cv,.cr{display:none}}@keyframes cv0{0%{transform:scaleX(1);animation-timing-function:steps(33,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr0{0%{transform:translateX(0);animation-timing-function:steps(33,end)}8.40%{transform:translateX(429.0px)}100%{transform:translateX(429.0px)}}@keyframes cv1{0%{transform:scaleX(1);animation-timing-function:steps(29,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr1{0%{transform:translateX(0);animation-timing-function:steps(29,end)}8.40%{transform:translateX(377.0px)}100%{transform:translateX(377.0px)}}@keyframes cv2{0%{transform:scaleX(1);animation-timing-function:steps(39,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr2{0%{transform:translateX(0);animation-timing-function:steps(39,end)}8.40%{transform:translateX(507.0px)}100%{transform:translateX(507.0px)}}@keyframes cv3{0%{transform:scaleX(1);animation-timing-function:steps(35,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr3{0%{transform:translateX(0);animation-timing-function:steps(35,end)}8.40%{transform:translateX(455.0px)}100%{transform:translateX(455.0px)}}@keyframes cv4{0%{transform:scaleX(1);animation-timing-function:steps(39,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr4{0%{transform:translateX(0);animation-timing-function:steps(39,end)}8.40%{transform:translateX(507.0px)}100%{transform:translateX(507.0px)}}
+@media (prefers-reduced-motion: reduce){.ln{opacity:0}.ln0{opacity:1}.cv,.cr{display:none}}@keyframes cv0{0%{transform:scaleX(1);animation-timing-function:steps(33,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr0{0%{transform:translateX(0);animation-timing-function:steps(33,end)}8.40%{transform:translateX(429.0px)}100%{transform:translateX(429.0px)}}@keyframes cv1{0%{transform:scaleX(1);animation-timing-function:steps(29,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr1{0%{transform:translateX(0);animation-timing-function:steps(29,end)}8.40%{transform:translateX(377.0px)}100%{transform:translateX(377.0px)}}@keyframes cv2{0%{transform:scaleX(1);animation-timing-function:steps(31,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr2{0%{transform:translateX(0);animation-timing-function:steps(31,end)}8.40%{transform:translateX(403.0px)}100%{transform:translateX(403.0px)}}@keyframes cv3{0%{transform:scaleX(1);animation-timing-function:steps(27,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr3{0%{transform:translateX(0);animation-timing-function:steps(27,end)}8.40%{transform:translateX(351.0px)}100%{transform:translateX(351.0px)}}@keyframes cv4{0%{transform:scaleX(1);animation-timing-function:steps(39,end)}8.40%{transform:scaleX(0)}100%{transform:scaleX(0)}}@keyframes cr4{0%{transform:translateX(0);animation-timing-function:steps(39,end)}8.40%{transform:translateX(507.0px)}100%{transform:translateX(507.0px)}}
 @media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
 <rect x=".5" y=".5" width="799" height="67" rx="16" fill="#0a0d1a" stroke="#1b2238"/>
 <circle class="dot" cx="30" cy="34.0" r="5" fill="#ff5f57"/><circle class="dot" cx="50" cy="34.0" r="5" fill="#fbbf24" style="animation-delay:.3s"/><circle class="dot" cx="70" cy="34.0" r="5" fill="#34d399" style="animation-delay:.6s"/>
@@ -30,14 +30,14 @@
 </g>
 <g class="ln ln2" style="animation-delay:6s">
 <text x="100" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="700" fill="#fbbf24">$</text>
-<text x="122" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" fill="#e8ecf6" xml:space="preserve">Civic tech | Legal tech | AI automation</text>
-<rect class="cv" x="120" y="18.0" width="521.0" height="34" fill="#0a0d1a" style="transform-origin:641.0px 0;animation:cv2 15s linear infinite backwards;animation-delay:6s"/>
+<text x="122" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" fill="#e8ecf6" xml:space="preserve">I build AI agents and MCP tools</text>
+<rect class="cv" x="120" y="18.0" width="417.0" height="34" fill="#0a0d1a" style="transform-origin:537.0px 0;animation:cv2 15s linear infinite backwards;animation-delay:6s"/>
 <g class="cr" style="animation:cr2 15s linear infinite backwards;animation-delay:6s"><rect class="bl" x="122" y="20.0" width="10" height="26" rx="2" fill="#22d3ee"/></g>
 </g>
 <g class="ln ln3" style="animation-delay:9s">
 <text x="100" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="700" fill="#fbbf24">$</text>
-<text x="122" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" fill="#e8ecf6" xml:space="preserve">Small PRs. Real tests. Honest docs.</text>
-<rect class="cv" x="120" y="18.0" width="469.0" height="34" fill="#0a0d1a" style="transform-origin:589.0px 0;animation:cv3 15s linear infinite backwards;animation-delay:9s"/>
+<text x="122" y="41.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" fill="#e8ecf6" xml:space="preserve">Human-in-the-loop by design</text>
+<rect class="cv" x="120" y="18.0" width="365.0" height="34" fill="#0a0d1a" style="transform-origin:485.0px 0;animation:cv3 15s linear infinite backwards;animation-delay:9s"/>
 <g class="cr" style="animation:cr3 15s linear infinite backwards;animation-delay:9s"><rect class="bl" x="122" y="20.0" width="10" height="26" rx="2" fill="#22d3ee"/></g>
 </g>
 <g class="ln ln4" style="animation-delay:12s">

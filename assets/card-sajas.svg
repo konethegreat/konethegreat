@@ -2,14 +2,14 @@
 <!-- Written by Kone Tshivhinda & Claude -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 190" width="590" height="190" role="img" aria-labelledby="t d">
 <title id="t">SA Job Agent Suite</title>
-<desc id="d">SA Job Agent Suite: Job discovery, tailored application documents and guided applications. Human submission. Stack: Desktop assistant · synthetic browser tests.</desc>
+<desc id="d">SA Job Agent Suite: Three agents find jobs, tailor CVs and cover letters and guide applications. A human always submits. Stack: Electron · React · Express · Playwright.</desc>
 <defs><clipPath id="c"><rect x="1" y="1" width="588" height="188" rx="16"/></clipPath>
 <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".10"/><stop offset="1" stop-color="#8b7bff" stop-opacity="0"/></linearGradient></defs>
 <style>
-.tr{stroke-dasharray:14 86;animation:tr 7s linear infinite;animation-delay:2.4s}
+.tr{stroke-dasharray:14 86;animation:tr 7s linear infinite;animation-delay:1.2s}
 @keyframes tr{to{stroke-dashoffset:-100}}
-.sh{animation:sh 9s ease-in-out infinite;animation-delay:2.4s}
+.sh{animation:sh 9s ease-in-out infinite;animation-delay:1.2s}
 @keyframes sh{0%{transform:translateX(-200px) skewX(-20deg)}35%,100%{transform:translateX(760px) skewX(-20deg)}}
 .pd{animation:pd 2.2s ease-in-out infinite}
 @keyframes pd{0%,100%{opacity:.35}50%{opacity:1}}
@@ -18,11 +18,11 @@
 <rect x="1" y="1" width="588" height="188" rx="16" fill="url(#gl)"/>
 <g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="120" height="190" fill="url(#sh)"/></g>
 <rect class="tr" x="1" y="1" width="588" height="188" rx="16" fill="none" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round" pathLength="100"/>
-<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8892ab" letter-spacing="2">03</text>
+<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8892ab" letter-spacing="2">02</text>
 <circle class="pd" cx="386" cy="40" r="4" fill="#22d3ee"/>
-<text x="558" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#22d3ee">DESKTOP ASSISTANT</text>
+<text x="558" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#22d3ee">HUMAN-IN-THE-LOOP</text>
 <text x="32" y="86" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#e8ecf6">SA Job Agent Suite</text>
-<text x="32" y="116" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">Job discovery, tailored application documents</text>
-<text x="32" y="138" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">and guided applications. Human submission.</text>
-<text x="32" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#22d3ee">Desktop assistant · synthetic browser tests</text><g transform="translate(540,138)" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 18 2M6 2h12v12"/></g>
+<text x="32" y="116" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">Three agents find jobs, tailor CVs and cover letters</text>
+<text x="32" y="138" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">and guide applications. A human always submits.</text>
+<text x="32" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#22d3ee">Electron · React · Express · Playwright</text><g transform="translate(540,138)" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 18 2M6 2h12v12"/></g>
 </svg>
