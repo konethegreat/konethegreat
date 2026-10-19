@@ -48,7 +48,7 @@
 <circle cx="965" cy="160" r="14" fill="#22d3ee"/><circle cx="965" cy="160" r="6" fill="#05060d"/>
 <text class="rise" x="72" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="600" letter-spacing="3.2" fill="#22d3ee" style="animation-delay:.1s">SOFTWARE ENGINEER  ·  SOUTH AFRICA</text>
 <text class="rise" x="68" y="196" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-2" fill="url(#nm)" style="animation-delay:.28s">Kone Tshivhinda</text>
-<text class="rise" x="72" y="240" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#8892ab" style="animation-delay:.5s">Civic tech · Legal tech · Practical AI automation</text>
+<text class="rise" x="72" y="240" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" fill="#8892ab" style="animation-delay:.5s">AI agents · MCP tools · Practical automation</text>
 <rect x="72" y="278" width="480" height="2" rx="1" fill="#e8ecf6" fill-opacity=".08"/>
 <rect class="bar" x="72" y="277" width="60" height="4" rx="2" fill="url(#sweep)"/>
 </g>

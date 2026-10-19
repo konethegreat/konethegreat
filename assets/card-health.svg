@@ -2,14 +2,14 @@
 <!-- Written by Kone Tshivhinda & Claude -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 190" width="590" height="190" role="img" aria-labelledby="t d">
 <title id="t">Server Health Monitor</title>
-<desc id="d">Server Health Monitor: Configurable CPU, memory and disk checks with Slack and SMTP alerts. Stack: Python · tests on Windows and Linux.</desc>
+<desc id="d">Server Health Monitor: CPU, memory and disk checks with configurable Slack and SMTP alerts. Windows and Linux tests, Docker. Stack: Python · Docker · GitHub Actions.</desc>
 <defs><clipPath id="c"><rect x="1" y="1" width="588" height="188" rx="16"/></clipPath>
 <linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <linearGradient id="gl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".10"/><stop offset="1" stop-color="#8b7bff" stop-opacity="0"/></linearGradient></defs>
 <style>
-.tr{stroke-dasharray:14 86;animation:tr 7s linear infinite;animation-delay:3.6s}
+.tr{stroke-dasharray:14 86;animation:tr 7s linear infinite;animation-delay:6.0s}
 @keyframes tr{to{stroke-dashoffset:-100}}
-.sh{animation:sh 9s ease-in-out infinite;animation-delay:3.6s}
+.sh{animation:sh 9s ease-in-out infinite;animation-delay:6.0s}
 @keyframes sh{0%{transform:translateX(-200px) skewX(-20deg)}35%,100%{transform:translateX(760px) skewX(-20deg)}}
 .pd{animation:pd 2.2s ease-in-out infinite}
 @keyframes pd{0%,100%{opacity:.35}50%{opacity:1}}
@@ -18,11 +18,11 @@
 <rect x="1" y="1" width="588" height="188" rx="16" fill="url(#gl)"/>
 <g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="120" height="190" fill="url(#sh)"/></g>
 <rect class="tr" x="1" y="1" width="588" height="188" rx="16" fill="none" stroke="#22d3ee" stroke-width="2.2" stroke-linecap="round" pathLength="100"/>
-<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8892ab" letter-spacing="2">04</text>
+<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#8892ab" letter-spacing="2">06</text>
 <circle class="pd" cx="461" cy="40" r="4" fill="#22d3ee"/>
 <text x="558" y="45" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="1.6" fill="#22d3ee">ON GITHUB</text>
 <text x="32" y="86" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#e8ecf6">Server Health Monitor</text>
-<text x="32" y="116" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">Configurable CPU, memory and disk checks</text>
-<text x="32" y="138" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">with Slack and SMTP alerts.</text>
-<text x="32" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#22d3ee">Python · tests on Windows and Linux</text><g transform="translate(540,138)" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 18 2M6 2h12v12"/></g>
+<text x="32" y="116" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">CPU, memory and disk checks with configurable</text>
+<text x="32" y="138" font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15.5" fill="#8892ab">Slack and SMTP alerts. Windows and Linux tests, Docker.</text>
+<text x="32" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" fill="#22d3ee">Python · Docker · GitHub Actions</text><g transform="translate(540,138)" fill="none" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18 18 2M6 2h12v12"/></g>
 </svg>
