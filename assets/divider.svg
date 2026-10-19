@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Kone Tshivhinda & Claude -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 20" width="1200" height="20" role="img" aria-labelledby="t d">
+<title id="t">Divider</title>
+<desc id="d">Decorative animated divider line.</desc>
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#1b2238" stop-opacity="0"/><stop offset=".5" stop-color="#1b2238"/><stop offset="1" stop-color="#1b2238" stop-opacity="0"/></linearGradient>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient></defs>
+<style>.g{animation:g 6s cubic-bezier(.65,0,.35,1) infinite}@keyframes g{0%{transform:translateX(-300px)}100%{transform:translateX(1200px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<rect x="0" y="9" width="1200" height="2" fill="url(#l)"/><rect class="g" x="0" y="8" width="300" height="4" rx="2" fill="url(#g)"/>
+</svg>
