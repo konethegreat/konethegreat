@@ -66,7 +66,7 @@ its current scope and setup.
 **[SA Job Agent Suite](https://github.com/konethegreat/scratch)** · Electron, React, Express, MIT
 - Three agents: a Job Hunter (Claude grounded web search, with job-board scrapers as a fallback), a Document Tailor (CVs and cover letters via Gemini, Claude or OpenRouter, rendered to PDF) and an Apply Copilot (a persistent browser assistant that fills forms).
 - Safety by design: it never auto-submits, never solves CAPTCHAs, and scans pages for prompt injection. API keys stay in a separate store and are never sent to the client.
-- Verified with 65 server tests and a repeatable synthetic walkthrough (`npm run demo`) that needs no live job sites or paid AI calls. The public repo is a clean source snapshot.
+- Verified with the unit-test suites (`npm test`: the `@sajas/core` Anthropic layer, the server and the eval checks) and a repeatable synthetic walkthrough (`npm run demo`) with live searches and AI calls disabled. The public repo is a clean source snapshot.
 
 **[Diary](https://github.com/konethegreat/Diary)** · FastAPI, SQLite, PolyForm Noncommercial
 - A single-user diary where AI polishes notes and scores mood, writes a morning brief, a weekly review and a monthly coach that remembers context, and answers questions over your entries with RAG.
