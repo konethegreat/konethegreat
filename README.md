@@ -125,7 +125,7 @@ attribution. Examples include the [plant-shop frontend](https://github.com/konet
 [full-stack capstone](https://github.com/konethegreat/xrwvm-fullstack_developer_capstone).
 
 Also public: the [K-ONE IT SOLUTIONS website source](https://github.com/konethegreat/k-one-it-solutions-website)
-(static HTML, CSS and JavaScript; live at [k-oneitsolutions.live](https://k-oneitsolutions.live/)),
+(Astro and Tailwind CSS, hosted on Cloudflare Workers; live at [k-one-it-solutions-website.erictshivhinda.workers.dev](https://k-one-it-solutions-website.erictshivhinda.workers.dev/)),
 and a historical [React/Express/MongoDB social-media prototype](https://github.com/konethegreat/k-one-solutions-media)
 that needs further maintenance.
 
@@ -152,7 +152,7 @@ that needs further maintenance.
 - [Email](mailto:erictshivhinda@gmail.com)
 - [Credly profile](https://www.credly.com/users/kone-tshivhinda)
 - [Portfolio](https://konethegreat.github.io/)
-- [K-ONE IT SOLUTIONS](https://k-oneitsolutions.live/)
+- [K-ONE IT SOLUTIONS](https://k-one-it-solutions-website.erictshivhinda.workers.dev/)
 
 For bugs and contribution ideas, use the issue tracker on the relevant repository
 and include reproduction steps without private data or credentials.
