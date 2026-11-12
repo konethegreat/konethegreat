@@ -1,0 +1,24 @@
+name: Profile guard
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Test check-profile.sh against fixtures
+        run: bash scripts/test-check-profile.sh
+
+      - name: Check README.md, assets/ and docs/
+        run: bash scripts/check-profile.sh
