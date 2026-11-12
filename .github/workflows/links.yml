@@ -1,0 +1,39 @@
+name: Check links
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  schedule:
+    # Weekly, Mondays at 06:00 UTC, to catch links that break between changes
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Check links in README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # lychee 0.19.0 removed --exclude-mail, so pin the last release that accepts it.
+          lycheeVersion: v0.18.1
+          # Relative paths such as assets/banner.svg are checked as local files;
+          # --root-dir also resolves root-relative paths against the checkout.
+          # LinkedIn answers automated clients with 999, so 999 is accepted.
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-mail
+            --accept 200,206,429,999
+            --root-dir "${{ github.workspace }}"
+            README.md
+          fail: true
