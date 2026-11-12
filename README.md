@@ -60,7 +60,7 @@ its current scope and setup.
 
 **[ClearCut](https://github.com/konethegreat/clearcut)** · Rust, Apache-2.0, alpha
 - One Rust core exposed as a REST API (axum), a stdio MCP server (rmcp) and a Claude plugin, with a typed TypeScript client.
-- Today: invoice calculation with integer-cent money, lifecycle rules and South African VAT thresholds, covered by 20 tests. MCP tools: `calculate_invoice`, `za_required_tax_invoice`, `check_status_transition`.
+- Today: invoice calculation with integer-cent money, lifecycle rules and South African VAT thresholds. MCP tools: `calculate_invoice`, `za_required_tax_invoice`, `check_status_transition`.
 - Designed but not built yet: document ingestion, narration and export, persistence, e-invoicing and payments. The roadmap says so up front.
 
 **[SA Job Agent Suite](https://github.com/konethegreat/scratch)** · Electron, React, Express, MIT
