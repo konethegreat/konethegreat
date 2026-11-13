@@ -1,5 +1,5 @@
 <!-- Written by Kone Tshivhinda & Claude -->
-<!-- Visuals in /assets are self-hosted animated SVGs: no third-party image services to rate-limit or go down. -->
+<!-- Visuals in /assets are self-hosted animated SVGs. Only the header badges come from a third-party image service (img.shields.io). -->
 
 <div align="center">
 
