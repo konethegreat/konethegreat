@@ -52,6 +52,9 @@ its current scope and setup.
 <td width="50%"><a href="https://github.com/konethegreat/munisolve-za"><img src="assets/card-munisolve.svg" alt="MuniSolve ZA: municipal fault reporting with citizen and admin workflows, authorization tests and a React frontend. Live." width="100%" /></a></td>
 <td width="50%"><a href="https://github.com/konethegreat/server-health-monitor"><img src="assets/card-health.svg" alt="Server Health Monitor: CPU, memory and disk checks with configurable Slack and SMTP alerts, Windows and Linux tests, and Docker support." width="100%" /></a></td>
 </tr>
+<tr>
+<td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 1.2.6." width="100%" /></a></td>
+</tr>
 </table>
 
 <details>
