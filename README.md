@@ -119,7 +119,7 @@ Agent projects fail in predictable ways: tools that do too much, no one accounta
 
 ## How I work
 
-<img src="assets/skills.svg" width="100%" alt="Languages and frameworks: Rust, TypeScript, JavaScript, Python, Java, React, Express, FastAPI, Electron, Playwright, SQLite, PostgreSQL, Docker, GitHub Actions. AI tooling: MCP, Claude API, Gemini, OpenRouter, Ollama, RAG, agent orchestration, human-in-the-loop. Practices: small pull requests, tests that exercise behavior, explicit AI provider calls, credentials kept out of source, simulated versus verified integrations documented, reproducible setup guides." />
+<img src="assets/skills.svg" width="100%" alt="Languages and frameworks: Rust, TypeScript, JavaScript, Python, Java, React, Next.js, Vite, Astro, Tailwind CSS, Express, FastAPI, Electron, Tauri, Playwright, SQLite, PostgreSQL, Docker, GitHub Actions. AI tooling: MCP, Claude API, Gemini, OpenRouter, Ollama, RAG, agent orchestration, human-in-the-loop. Practices: small pull requests, tests that exercise behavior, explicit AI provider calls, credentials kept out of source, simulated versus verified integrations documented, reproducible setup guides." />
 
 - Use small pull requests with checks that exercise meaningful behavior.
 - Keep AI provider calls explicit and protect local data and credentials.
