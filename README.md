@@ -147,6 +147,13 @@ of UI and UX patterns; live at [konethegreat.github.io/ui-vault](https://konethe
 and [Reservoir](https://github.com/konethegreat/reservoir) (a community-grown memory of South African culture,
 in planning; docs at [konethegreat.github.io/reservoir](https://konethegreat.github.io/reservoir/)).
 
+Legal and engineering demos: [TimeLex v2](https://github.com/konethegreat/timelex-automated-time-tracking-v2)
+(a legal time-review prototype with tenant-scoped drafts, approval into a time ledger and a simulated
+Ghost Practice gateway), [performance-management-tool](https://github.com/konethegreat/performance-management-tool)
+(a legal performance-management demo with quarterly reviews, 360 feedback and approval workflows) and
+[systems-project-management-](https://github.com/konethegreat/systems-project-management-) (an engineering
+workspace demo with projects, sprints and role-based dashboards).
+
 <img src="assets/divider.svg" width="100%" alt="" />
 
 ## Activity
