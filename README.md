@@ -54,6 +54,7 @@ its current scope and setup.
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 1.2.6." width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/konethegreat/timelex"><img src="assets/card-timelex.svg" alt="TimeLex: practice management for South African law firms, built as Rust, Python and TypeScript services. Rust, Python, TypeScript and MCP. Pre-alpha." width="100%" /></a></td>
 </tr>
 </table>
 
