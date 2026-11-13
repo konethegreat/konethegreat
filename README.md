@@ -54,7 +54,7 @@ its current scope and setup.
 <td width="50%"><a href="https://github.com/konethegreat/server-health-monitor"><img src="assets/card-health.svg" alt="Server Health Monitor: CPU, memory and disk checks with configurable Slack and SMTP alerts, Windows and Linux tests, and Docker support." width="100%" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 1.2.6." width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 1.3.0." width="100%" /></a></td>
 <td width="50%"><a href="https://github.com/konethegreat/timelex"><img src="assets/card-timelex.svg" alt="TimeLex: practice management for South African law firms, built as Rust, Python and TypeScript services. Rust, Python, TypeScript and MCP. Pre-alpha." width="100%" /></a></td>
 </tr>
 </table>
@@ -69,7 +69,7 @@ its current scope and setup.
 - Designed but not built yet: document ingestion, narration and export, persistence, e-invoicing and payments. The roadmap says so up front.
 
 **[SA Job Agent Suite](https://github.com/konethegreat/scratch)** · Electron, React, Express, MIT
-- Three agents: a Job Hunter (Claude grounded web search, with job-board scrapers as a fallback), a Document Tailor (CVs and cover letters via Gemini, Claude or OpenRouter, rendered to PDF) and an Apply Copilot (a persistent browser assistant that fills forms).
+- Three agents: a Job Hunter (Claude grounded web search, with job-board scrapers as a fallback), a Document Tailor (CVs and cover letters via Claude, rendered to PDF) and an Apply Copilot (a persistent browser assistant that fills forms).
 - Safety by design: it never auto-submits, never solves CAPTCHAs, and scans pages for prompt injection. API keys stay in a separate store and are never sent to the client.
 - Verified with the unit-test suites (`npm test`: the `@sajas/core` Anthropic layer, the server and the eval checks) and a repeatable synthetic walkthrough (`npm run demo`) with live searches and AI calls disabled. The public repo is a clean source snapshot.
 - The SA-JAS Apply Assistant browser extension ([release `extension-v0.1.0`](https://github.com/konethegreat/scratch/releases/tag/extension-v0.1.0)) fills a packet sent from [sajas.pages.dev](https://sajas.pages.dev), shows what it filled and skipped, and leaves the final submit to the person.
@@ -88,7 +88,7 @@ its current scope and setup.
 **[Server Health Monitor](https://github.com/konethegreat/server-health-monitor)** · Python
 - Configurable CPU, memory and disk checks with Slack and SMTP alerts, tests on Windows and Linux, and Docker support.
 
-**[AgentOS Studio](https://github.com/konethegreat/agentos-studio)** · Rust, Tauri v2, React 19, MIT, release 1.2.6 · [download site](https://agentos-studio-website.erictshivhinda.workers.dev)
+**[AgentOS Studio](https://github.com/konethegreat/agentos-studio)** · Rust, Tauri v2, React 19, MIT, release 1.3.0 · [download site](https://agentos-studio-website.erictshivhinda.workers.dev)
 - One native desktop app and one Rust binary. Run with `--mcp-stdio`, the binary is `agentos-hub`, a native Rust MCP bus with 13 tools for a shared task queue, typed memory, ranked recall, the agent registry, and handoffs and asks between agents, with no Python.
 - A hot-swap provider switchboard: start on a Claude Pro or Max subscription, then move to OpenRouter, Gemini, the Anthropic or OpenAI APIs, DeepSeek, Nous Portal or a local Ollama model from a dropdown, and check every switch with a live test turn.
 - Per-action permission policies (allow, ask, deny) enforced in the Rust core, approval prompts for anything destructive, and an audit log.
@@ -112,7 +112,7 @@ Agent projects fail in predictable ways: tools that do too much, no one accounta
 | --- | --- | --- |
 | **Humans keep the final say** | The apply copilot fills the form and stops before Submit. ClearCut's design has agents draft while policy and people approve. AgentOS Studio enforces allow, ask and deny policies per action and asks before anything destructive. | [SA-JAS](https://github.com/konethegreat/scratch), [ClearCut](https://github.com/konethegreat/clearcut), [AgentOS Studio](https://github.com/konethegreat/agentos-studio) |
 | **Narrow, tested tools** | MCP tools expose single rules, such as VAT checks and status transitions, backed by a deterministic Rust core with integer-cent money. | [ClearCut](https://github.com/konethegreat/clearcut) |
-| **Private by default, provider by choice** | Claude, Gemini, OpenRouter or local Ollama are explicit choices, keys live outside the client, and personal data stays on your machine. | [Diary](https://github.com/konethegreat/Diary), [SA-JAS](https://github.com/konethegreat/scratch) |
+| **Private by default, provider by choice** | Claude or local Ollama are explicit choices, keys live outside the client, and personal data stays on your machine. | [Diary](https://github.com/konethegreat/Diary), [SA-JAS](https://github.com/konethegreat/scratch) |
 | **Untrusted input stays untrusted** | Pages are scanned for prompt injection, CAPTCHAs are handed off to a person, and model proposals are quoted and reviewed before they are used. | [SA-JAS](https://github.com/konethegreat/scratch), [Vigil](https://github.com/konethegreat/Vigil) |
 | **Honest about status** | Alpha means alpha. Simulated and verified behavior are documented separately, and unbuilt phases are listed as unbuilt. | [ClearCut](https://github.com/konethegreat/clearcut) |
 
