@@ -141,8 +141,11 @@ attribution. Examples include the [plant-shop frontend](https://github.com/konet
 
 Also public: the [K-ONE IT SOLUTIONS website source](https://github.com/konethegreat/k-one-it-solutions-website)
 (Astro and Tailwind CSS, hosted on Cloudflare Workers; live at [k-one-it-solutions-website.erictshivhinda.workers.dev](https://k-one-it-solutions-website.erictshivhinda.workers.dev/)),
-and a historical [React/Express/MongoDB social-media prototype](https://github.com/konethegreat/k-one-solutions-media)
-that needs further maintenance.
+a historical [React/Express/MongoDB social-media prototype](https://github.com/konethegreat/k-one-solutions-media)
+that needs further maintenance, [UI Vault](https://github.com/konethegreat/ui-vault) (a provenance-first index
+of UI and UX patterns; live at [konethegreat.github.io/ui-vault](https://konethegreat.github.io/ui-vault/)),
+and [Reservoir](https://github.com/konethegreat/reservoir) (a community-grown memory of South African culture,
+in planning; docs at [konethegreat.github.io/reservoir](https://konethegreat.github.io/reservoir/)).
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
