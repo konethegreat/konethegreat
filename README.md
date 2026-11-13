@@ -27,7 +27,8 @@ in South Africa. Founder of K-ONE IT SOLUTIONS.**
 
 I build applications that connect a useful workflow with clear access controls,
 reliable setup, and tests. My work spans agent-native services with MCP servers,
-desktop and private AI assistants, civic reporting, and operational tools.
+multi-agent developer tooling (AgentOS Studio), legal tech (TimeLex), desktop
+and private AI assistants, civic reporting, and operational tools.
 
 I am interested in engineering opportunities, collaborators, and people who want
 to try these projects. Start with the repositories below; each one documents
