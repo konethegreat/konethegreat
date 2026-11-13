@@ -91,6 +91,11 @@ its current scope and setup.
 - A hot-swap provider switchboard: start on a Claude Pro or Max subscription, then move to OpenRouter, Gemini, the Anthropic or OpenAI APIs, DeepSeek, Nous Portal or a local Ollama model from a dropdown, and check every switch with a live test turn.
 - Per-action permission policies (allow, ask, deny) enforced in the Rust core, approval prompts for anything destructive, and an audit log.
 
+**[TimeLex](https://github.com/konethegreat/timelex)** · Rust, Python, TypeScript, Apache-2.0, pre-alpha
+- A walking skeleton today: a tested billing-unit library, shared contract types, a gateway health endpoint, a Python redaction worker and a TypeScript SDK stub.
+- The capture hub accepts and stores activity events idempotently, a person can record a call, meeting or note by hand at `/capture`, and firm-level privacy exclusions stop an excluded domain before it becomes an event.
+- The gateway serves a versioned data-flow register with an admin privacy page at `/privacy`. No real connector exists yet, and no live capture, attribution, ledger, billing or trust-accounting code exists yet.
+
 </details>
 
 <img src="assets/divider.svg" width="100%" alt="" />
