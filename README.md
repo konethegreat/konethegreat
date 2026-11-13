@@ -71,6 +71,7 @@ its current scope and setup.
 - Three agents: a Job Hunter (Claude grounded web search, with job-board scrapers as a fallback), a Document Tailor (CVs and cover letters via Gemini, Claude or OpenRouter, rendered to PDF) and an Apply Copilot (a persistent browser assistant that fills forms).
 - Safety by design: it never auto-submits, never solves CAPTCHAs, and scans pages for prompt injection. API keys stay in a separate store and are never sent to the client.
 - Verified with the unit-test suites (`npm test`: the `@sajas/core` Anthropic layer, the server and the eval checks) and a repeatable synthetic walkthrough (`npm run demo`) with live searches and AI calls disabled. The public repo is a clean source snapshot.
+- The SA-JAS Apply Assistant browser extension ([release `extension-v0.1.0`](https://github.com/konethegreat/scratch/releases/tag/extension-v0.1.0)) fills a packet sent from [sajas.pages.dev](https://sajas.pages.dev), shows what it filled and skipped, and leaves the final submit to the person.
 
 **[Diary](https://github.com/konethegreat/Diary)** · FastAPI, SQLite, PolyForm Noncommercial
 - A single-user diary where AI polishes notes and scores mood, writes a morning brief, a weekly review and a monthly coach that remembers context, and answers questions over your entries with RAG.
