@@ -126,8 +126,9 @@ Agent projects fail in predictable ways: tools that do too much, no one accounta
 - Document which integrations are simulated and which have been verified live.
 - Improve setup guides and examples so another person can reproduce the work.
 
-My current tools include Rust, TypeScript/JavaScript, Python, React, Express,
-FastAPI, Electron, SQL, Docker, and GitHub Actions. I use AI coding tools as part
+My current tools include Rust, TypeScript/JavaScript, Python, React, Next.js,
+Vite, Astro, Tailwind CSS, Express, FastAPI, Electron, Tauri, SQL, Docker, and
+GitHub Actions. I use AI coding tools as part
 of the development process and review the resulting behavior and changes.
 
 <img src="assets/divider.svg" width="100%" alt="" />
