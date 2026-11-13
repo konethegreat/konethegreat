@@ -10,7 +10,7 @@
 <br />
 
 <a href="https://konethegreat.github.io/"><img src="https://img.shields.io/badge/Portfolio-konethegreat.github.io-22d3ee?style=for-the-badge&logo=githubpages&logoColor=05060d" alt="Portfolio" /></a>
-<a href="https://github.com/konethegreat/clearcut"><img src="https://img.shields.io/badge/Latest-ClearCut-fbbf24?style=for-the-badge&logo=rust&logoColor=05060d" alt="ClearCut" /></a>
+<a href="https://github.com/konethegreat/agentos-studio"><img src="https://img.shields.io/badge/Latest-AgentOS%20Studio-fbbf24?style=for-the-badge&logo=rust&logoColor=05060d" alt="AgentOS Studio" /></a>
 <a href="https://www.linkedin.com/in/kone-tshivhinda-32a760233"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:erictshivhinda@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
