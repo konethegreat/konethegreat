@@ -85,6 +85,11 @@ its current scope and setup.
 **[Server Health Monitor](https://github.com/konethegreat/server-health-monitor)** · Python
 - Configurable CPU, memory and disk checks with Slack and SMTP alerts, tests on Windows and Linux, and Docker support.
 
+**[AgentOS Studio](https://github.com/konethegreat/agentos-studio)** · Rust, Tauri v2, React 19, MIT, release 1.2.6 · [download site](https://agentos-studio-website.erictshivhinda.workers.dev)
+- One native desktop app and one Rust binary. Run with `--mcp-stdio`, the binary is `agentos-hub`, a native Rust MCP bus with 13 tools for a shared task queue, typed memory, ranked recall, the agent registry, and handoffs and asks between agents, with no Python.
+- A hot-swap provider switchboard: start on a Claude Pro or Max subscription, then move to OpenRouter, Gemini, the Anthropic or OpenAI APIs, DeepSeek, Nous Portal or a local Ollama model from a dropdown, and check every switch with a live test turn.
+- Per-action permission policies (allow, ask, deny) enforced in the Rust core, approval prompts for anything destructive, and an audit log.
+
 </details>
 
 <img src="assets/divider.svg" width="100%" alt="" />
