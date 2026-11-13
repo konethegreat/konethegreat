@@ -102,7 +102,7 @@ Agent projects fail in predictable ways: tools that do too much, no one accounta
 
 | Principle | What it looks like in practice | Where |
 | --- | --- | --- |
-| **Humans keep the final say** | The apply copilot fills the form and stops before Submit. ClearCut's design has agents draft while policy and people approve. | [SA-JAS](https://github.com/konethegreat/scratch), [ClearCut](https://github.com/konethegreat/clearcut) |
+| **Humans keep the final say** | The apply copilot fills the form and stops before Submit. ClearCut's design has agents draft while policy and people approve. AgentOS Studio enforces allow, ask and deny policies per action and asks before anything destructive. | [SA-JAS](https://github.com/konethegreat/scratch), [ClearCut](https://github.com/konethegreat/clearcut), [AgentOS Studio](https://github.com/konethegreat/agentos-studio) |
 | **Narrow, tested tools** | MCP tools expose single rules, such as VAT checks and status transitions, backed by a deterministic Rust core with integer-cent money. | [ClearCut](https://github.com/konethegreat/clearcut) |
 | **Private by default, provider by choice** | Claude, Gemini, OpenRouter or local Ollama are explicit choices, keys live outside the client, and personal data stays on your machine. | [Diary](https://github.com/konethegreat/Diary), [SA-JAS](https://github.com/konethegreat/scratch) |
 | **Untrusted input stays untrusted** | Pages are scanned for prompt injection, CAPTCHAs are handed off to a person, and model proposals are quoted and reviewed before they are used. | [SA-JAS](https://github.com/konethegreat/scratch), [Vigil](https://github.com/konethegreat/Vigil) |
