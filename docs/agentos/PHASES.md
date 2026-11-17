@@ -86,3 +86,20 @@ release v2.0.0 while `assets/card-agentos-studio.svg` and `README.md` still stat
 Done when: `assets/card-agentos-studio.svg` and `README.md` match the `Latest` row of
 `gh release list -R konethegreat/agentos-studio`, `scripts/test-check-profile.sh` covers all
 branches of `scripts/check-profile.sh`, and both `Check links` and `Profile guard` pass on main.
+
+## Phase 7: Maintenance
+
+Phases 1 through 6 are complete, open issues are empty, and all three CI workflows (`Check links`,
+`Profile guard`, and `Generate contribution snake`) are passing on main. A follow-up review against
+`gh release list -R konethegreat/agentos-studio`, `.github/workflows/`, and `scripts/check-profile.sh`
+found three maintenance items to address: AgentOS Studio has published `v2.0.1` as `Latest` while
+`assets/card-agentos-studio.svg` and `README.md` still state `2.0.0`; `.github/workflows/snake.yml`
+still uses `crazy-max/ghaction-github-pages@v4` while `v5.0.0` is available and all workflow
+actions are pinned by major tag rather than commit SHA; and `scripts/check-profile.sh` does not yet
+verify that local `assets/` paths referenced in `README.md` exist on disk or that `README.md`
+retains its expected section headings and order.
+
+Done when: `assets/card-agentos-studio.svg` and `README.md` match the `Latest` row of
+`gh release list -R konethegreat/agentos-studio`, `.github/workflows/` action upgrades or SHA
+pins are evaluated and verified green on main, and `scripts/check-profile.sh` plus
+`scripts/test-check-profile.sh` validate local `assets/` references and section order cleanly.
