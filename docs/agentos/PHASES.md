@@ -71,3 +71,9 @@ Update the content to match the sources, then run a full fact check.
 Done when: the tools sentence in README.md, the chips in `assets/skills.svg` and its `<desc>`, and
 the skills image alt text in README.md list the same tools; the header comment matches the
 images README.md actually loads; and the final fact check task is ticked with a REPORT.md line.
+
+## Maintenance
+
+Phases 1 through 5 are complete, the profile layout and self-hosted SVGs match the standing direction, and both CI workflows (`Check links` and `Profile guard`) are passing on main. A review of the shipped profile against `gh repo list konethegreat`, repository READMEs, GitHub releases and `scripts/check-profile.sh` found two concrete gaps to address: AgentOS Studio has advanced to release v2.0.0 while `assets/card-agentos-studio.svg` and `README.md` still state `1.3.0`, and `scripts/test-check-profile.sh` does not yet exercise several edge-case branches in `scripts/check-profile.sh` (backslash and `%2e` path-traversal checks, unquoted or empty `src`, the `./assets/` allowed prefix, and a missing `README.md`).
+
+Done when: `assets/card-agentos-studio.svg` and `README.md` match the `Latest` row of `gh release list -R konethegreat/agentos-studio`, `scripts/test-check-profile.sh` covers all branches of `scripts/check-profile.sh`, and both `Check links` and `Profile guard` pass on main.
