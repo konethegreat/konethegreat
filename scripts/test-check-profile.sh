@@ -98,6 +98,34 @@ setup_svg_xlink_namespace() {
   printf '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10">\n  <use xlink:href="#a"/>\n</svg>\n' >"$1/assets/xlink.svg"
 }
 
+setup_backslash_escape() {
+  printf '\n<img src="assets\\..\\secret.svg" alt="b" />\n' >>"$1/README.md"
+}
+
+setup_encoded_dot_escape() {
+  printf '\n<img src="assets/%%2e%%2e/secret.svg" alt="e" />\n' >>"$1/README.md"
+}
+
+setup_img_unquoted_new_host() {
+  printf '\n<img src=https://example.com/u.png alt="u" />\n' >>"$1/README.md"
+}
+
+setup_img_unquoted_allowed() {
+  printf '\n<img src=assets/banner.svg alt="u" />\n' >>"$1/README.md"
+}
+
+setup_img_empty_src() {
+  printf '\n<img src="" alt="empty" />\n' >>"$1/README.md"
+}
+
+setup_img_dot_slash_assets() {
+  printf '\n<img src="./assets/banner.svg" alt="b" />\n' >>"$1/README.md"
+}
+
+setup_missing_readme() {
+  rm -f "$1/README.md"
+}
+
 setup_missing_root() {
   rm -rf "$1"
 }
@@ -115,6 +143,13 @@ run_case "README img src escaping the output prefix with .." 1 "output/../../mai
 run_case "SVG in assets/ with an external https link" 1 "assets/external.svg:2: external reference" setup_svg_https_link
 run_case "SVG in assets/ with an external http link" 1 "assets/plain-http.svg:2: external reference" setup_svg_http_link
 run_case "SVG with only the svg and xlink xmlns declarations" 0 "check-profile: OK" setup_svg_xlink_namespace
+run_case "README img src with a backslash" 1 "src points outside the allowed image sources: assets\\..\\secret.svg" setup_backslash_escape
+run_case "README img src with an encoded dot (%2e)" 1 "src points outside the allowed image sources: assets/%2e%2e/secret.svg" setup_encoded_dot_escape
+run_case "README img src unquoted on a new host" 1 "src points outside the allowed image sources: https://example.com/u.png" setup_img_unquoted_new_host
+run_case "README img src unquoted under assets/" 0 "check-profile: OK" setup_img_unquoted_allowed
+run_case "README img src empty" 1 "src points outside the allowed image sources: (empty)" setup_img_empty_src
+run_case "README img src under ./assets/" 0 "check-profile: OK" setup_img_dot_slash_assets
+run_case "missing README.md" 1 "README.md: not found" setup_missing_readme
 run_case "missing root directory is a usage error" 2 "root directory not found" setup_missing_root
 
 printf '%d passed, %d failed\n' "$passed" "$failed"
