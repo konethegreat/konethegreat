@@ -54,7 +54,7 @@ its current scope and setup.
 <td width="50%"><a href="https://github.com/konethegreat/server-health-monitor"><img src="assets/card-health.svg" alt="Server Health Monitor: CPU, memory and disk checks with configurable Slack and SMTP alerts, Windows and Linux tests, and Docker support." width="100%" /></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 2.0.0." width="100%" /></a></td>
+<td width="50%"><a href="https://github.com/konethegreat/agentos-studio"><img src="assets/card-agentos-studio.svg" alt="AgentOS Studio: one native desktop app and one Rust binary that turn Hermes, Claude Code, Qoder and Antigravity into one fleet. Rust, Tauri v2, React 19 and MCP. Release 2.0.1." width="100%" /></a></td>
 <td width="50%"><a href="https://github.com/konethegreat/timelex"><img src="assets/card-timelex.svg" alt="TimeLex: practice management for South African law firms, built as Rust, Python and TypeScript services. Rust, Python, TypeScript and MCP. Pre-alpha." width="100%" /></a></td>
 </tr>
 </table>
@@ -88,7 +88,7 @@ its current scope and setup.
 **[Server Health Monitor](https://github.com/konethegreat/server-health-monitor)** · Python
 - Configurable CPU, memory and disk checks with Slack and SMTP alerts, tests on Windows and Linux, and Docker support.
 
-**[AgentOS Studio](https://github.com/konethegreat/agentos-studio)** · Rust, Tauri v2, React 19, MIT, release 2.0.0 · [download site](https://agentos-studio-website.erictshivhinda.workers.dev)
+**[AgentOS Studio](https://github.com/konethegreat/agentos-studio)** · Rust, Tauri v2, React 19, MIT, release 2.0.1 · [download site](https://agentos-studio-website.erictshivhinda.workers.dev)
 - One native desktop app and one Rust binary. Run with `--mcp-stdio`, the binary is `agentos-hub`, a native Rust MCP bus with 13 tools for a shared task queue, typed memory, ranked recall, the agent registry, and handoffs and asks between agents, with no Python.
 - A hot-swap provider switchboard: start on a Claude Pro or Max subscription, then move to OpenRouter, Gemini, the Anthropic or OpenAI APIs, DeepSeek, Nous Portal or a local Ollama model from a dropdown, and check every switch with a live test turn.
 - Per-action permission policies (allow, ask, deny) enforced in the Rust core, approval prompts for anything destructive, and an audit log.
