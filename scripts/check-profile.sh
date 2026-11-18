@@ -9,6 +9,10 @@
 #   3. An assets/*.svg file contains an http:// or https:// reference other than the
 #      xmlns="http://www.w3.org/2000/svg" or xmlns:xlink="http://www.w3.org/1999/xlink"
 #      namespace declarations.
+#   4. README.md references a local assets/ or ./assets/ path that is not a file on disk.
+#   5. README.md is missing one of the expected "## " section headings, or they are not in
+#      this order: About, Selected projects, How my agents are built, How I work,
+#      Earlier work and learning, Activity, Connect.
 # Exits 0 with an OK line when everything is clean, and 2 on a usage error.
 #
 # Usage: scripts/check-profile.sh [root-dir]   (root-dir defaults to the repository root)
@@ -178,9 +182,75 @@ check_svg_refs() {
   done
 }
 
+# 4. Local assets/ paths referenced in README.md must exist.
+check_asset_paths() {
+  [[ -f README.md ]] || return 0
+  local hits entry lineno path
+  # A path starts at the beginning of a line or after a character that cannot be part of
+  # a URL path, so https://host/x/assets/y is not mistaken for a local reference.
+  if ! hits=$(tr -d '\r' <README.md |
+    grep -noE "(^|[^[:alnum:]_./:-])(\./)?assets/[^][:space:]\"'\`*()<>,?#|]+"); then
+    return 0
+  fi
+  while IFS= read -r entry; do
+    lineno=${entry%%:*}
+    path=${entry#*:}
+    path=${path#"${path%%[a.]*}"}
+    path=${path#./}
+    if [[ ! -f $path ]]; then
+      report "README.md:$lineno: local asset not found: $path"
+    fi
+  done <<<"$hits"
+}
+
+# 5. README.md section headings, in the order the profile uses.
+expected_sections=(
+  "About"
+  "Selected projects"
+  "How my agents are built"
+  "How I work"
+  "Earlier work and learning"
+  "Activity"
+  "Connect"
+)
+
+check_section_order() {
+  [[ -f README.md ]] || return 0
+  local lineno=0 line title i want prev_title="" prev_index=-1
+  local -a found_line=()
+  while IFS= read -r line || [[ -n $line ]]; do
+    lineno=$((lineno + 1))
+    line=${line%$'\r'}
+    [[ $line == '## '* ]] || continue
+    title=$(trim "${line#'## '}")
+    for i in "${!expected_sections[@]}"; do
+      if [[ $title == "${expected_sections[$i]}" ]]; then
+        if [[ -z ${found_line[$i]:-} ]]; then
+          found_line[$i]=$lineno
+          if [[ $i -lt $prev_index ]]; then
+            report "README.md:$lineno: section \"## $title\" is out of order (it comes after \"## $prev_title\")"
+          else
+            prev_index=$i
+            prev_title=$title
+          fi
+        fi
+        break
+      fi
+    done
+  done <README.md
+  for i in "${!expected_sections[@]}"; do
+    want=${expected_sections[$i]}
+    if [[ -z ${found_line[$i]:-} ]]; then
+      report "README.md: missing section heading: ## $want"
+    fi
+  done
+}
+
 check_dashes
 check_readme_images
 check_svg_refs
+check_asset_paths
+check_section_order
 
 if [[ $failures -gt 0 ]]; then
   printf 'check-profile: FAILED with %d finding(s)\n' "$failures"

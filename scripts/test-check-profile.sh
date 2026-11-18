@@ -122,6 +122,29 @@ setup_img_dot_slash_assets() {
   printf '\n<img src="./assets/banner.svg" alt="b" />\n' >>"$1/README.md"
 }
 
+setup_missing_asset() {
+  rm -f "$1/assets/card-timelex.svg"
+}
+
+setup_missing_dot_slash_asset() {
+  printf '\n<img src="./assets/not-there.svg" alt="n" />\n' >>"$1/README.md"
+}
+
+setup_remote_assets_url() {
+  printf '\n[Remote](https://github.com/konethegreat/konethegreat/blob/main/assets/not-local.svg)\n' >>"$1/README.md"
+}
+
+setup_missing_section() {
+  sed -i.bak 's/^## How I work/## How I operate/' "$1/README.md"
+  rm -f "$1/README.md.bak"
+}
+
+setup_out_of_order_sections() {
+  sed -i.bak -e 's/^## Activity/## SWAP_MARK/' -e 's/^## About/## Activity/' \
+    -e 's/^## SWAP_MARK/## About/' "$1/README.md"
+  rm -f "$1/README.md.bak"
+}
+
 setup_missing_readme() {
   rm -f "$1/README.md"
 }
@@ -149,6 +172,11 @@ run_case "README img src unquoted on a new host" 1 "src points outside the allow
 run_case "README img src unquoted under assets/" 0 "check-profile: OK" setup_img_unquoted_allowed
 run_case "README img src empty" 1 "src points outside the allowed image sources: (empty)" setup_img_empty_src
 run_case "README img src under ./assets/" 0 "check-profile: OK" setup_img_dot_slash_assets
+run_case "README references a deleted assets/ file" 1 "local asset not found: assets/card-timelex.svg" setup_missing_asset
+run_case "README references a missing ./assets/ file" 1 "local asset not found: assets/not-there.svg" setup_missing_dot_slash_asset
+run_case "assets/ inside a remote URL is not a local path" 0 "check-profile: OK" setup_remote_assets_url
+run_case "README missing the How I work heading" 1 "missing section heading: ## How I work" setup_missing_section
+run_case "README with About and Activity swapped" 1 "out of order" setup_out_of_order_sections
 run_case "missing README.md" 1 "README.md: not found" setup_missing_readme
 run_case "missing root directory is a usage error" 2 "root directory not found" setup_missing_root
 
